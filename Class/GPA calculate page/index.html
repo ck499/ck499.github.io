@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>GPA calculate</title>
+    <link rel="shortcut icon" href="img/aun_favicon3.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+        <div class="idnex-wrapper index">
+        <div class="header-wrap">
+            <div class="top-wrap">
+                <div class="inner clearfix">
+                    <div class="fl teacher-directory"><a href="#" target="_blank">Faculty List</a></div>
+                    <div class="fr right-nav">
+                        <a href="#">Chinese</a>
+                        <a href="#" id="jiaoshi">Faculty Login</a>
+                    <div class="search">
+                        <span class="icon-search"></span>
+                        <div class="show-search">
+                            <input id="keywords" name="keywords" type="text" />
+                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-wrap">
+                <div class="inner clearfix">
+                    <div class="logo fl"></div>
+                    <div class="nav-list fr" style="float: left;">
+                        <ul id="navhead" data-mode="nav-follow">
+                            <li class="index" style="margin-left: 60px;"><a href="#">Index</a></li>
+                            <li class="news" style="margin-left: 60px;">About CS
+                                <dl>
+                                    <dd><a href="#">Administration</a></dd>
+                                    <dd><a href="#">Overview</a></dd>
+                                    <dd><a href="#">Organization</a></dd>
+                                </dl>
+                            </li>
+                            <li class="news" style="margin-left: 60px;">Faculty
+                                <dl>  
+                                    <dd><a href="#">Faculty List</a></dd>    
+                                    <dd><a href="#">Faculty Search</a></dd>     
+                                </dl>
+                            </li>
+                            <li class="news" style="margin-left: 60px;">Research
+                                <dl>    
+                                    <dd><a href="#">Research News</a></dd>    
+                                    <dd><a href="#">Research Institutions</a></dd>    
+                                    <dd><a href="#">Key Laboratory</a></dd>     
+                                </dl>
+                            </li>
+                            <li class="news" style="margin-left: 60px;"><a href="#">Education</a></li>
+                            <li class="news" style="margin-left: 60px;"><a href ="#">Resources</a></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    <main>
+        <h2><div style="text-align: center"><u>GPA calculator</u></div></h2>
+        <b><u>Course 1 : </u></b><br><br>
+        Enter credit hours : <input type="text" id="course1">
+        Select grade :
+        <select id="lettergrade1">
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>F</option>
+        </select><br><br>
+        <b><u>Course 2 : </u></b><br><br>
+        Enter credit hours : <input type="text" id="course2">
+        Select grade :
+        <select id="lettergrade2">
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>F</option>
+        </select><br><br>
+        <button onclick="Function()">Submit</button>
+        <br><p id="GPA"></p>
+
+    </main>
+</body>
+<footer>
+    <p>copyright © 2008-2018 School of Computer Science, Auburn University. All Rights Reserved.Editor: Xiangyu Xu.The date:2020.12.01</p>
+</footer>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Teaching Assistant Application</title>
+    <link rel="shortcut icon" href="Img/aun_favicon3.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="script.js"></script>   
+</head>
+<body>
+        <div class="idnex-wrapper index">
+        <div class="header-wrap">
+            <div class="top-wrap">
+                <div class="inner clearfix">
+                    <div class="fl teacher-directory"><a href="#" target="_blank">Faculty List</a></div>
+                    <div class="fr right-nav">
+                        <a href="#">Chinese</a>
+                        <a href="#" id="jiaoshi">Faculty Login</a>
+                    <div class="search">
+                        <span class="icon-search"></span>
+                        <div class="show-search">
+                            <input id="keywords" name="keywords" type="text" />
+                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-wrap">
+                <div class="inner clearfix">
+                    <div class="logo fl"></div>
+                    <div class="nav-list fr" style="float: left;">
+                        <ul id="navhead" data-mode="nav-follow">
+                            <li class="index" style="margin-left: 60px;"><a href="#">Index</a></li>
+                            <li class="news" style="margin-left: 60px;">About CS
+                                <dl>
+                                    <dd><a href="#">Administration</a></dd>
+                                    <dd><a href="#">Overview</a></dd>
+                                    <dd><a href="#">Organization</a></dd>
+                                </dl>
+                            </li>
+                            <li class="news" style="margin-left: 60px;">Faculty
+                                <dl>  
+                                    <dd><a href="#">Faculty List</a></dd>    
+                                    <dd><a href="#">Faculty Search</a></dd>     
+                                </dl>
+                            </li>
+                            <li class="news" style="margin-left: 60px;">Research
+                                <dl>    
+                                    <dd><a href="#">Research News</a></dd>    
+                                    <dd><a href="#">Research Institutions</a></dd>    
+                                    <dd><a href="#">Key Laboratory</a></dd>     
+                                </dl>
+                            </li>
+                            <li class="news" style="margin-left: 60px;"><a href="#">Education</a></li>
+                            <li class="news" style="margin-left: 60px;"><a href ="#">Resources</a></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <main>
+        <h1>Teaching Assistant Application</h1>
+        <form>
+            <label>English name:</label>
+            <input type="text" id="content"><br>
+            <label>Gender:</label>
+            <input type="text" id="content"><br>
+            <label>ID:</label>
+            <input type="text" placeholder="Eight numbers" id="content"><br>
+            <label>GPA</label>
+            <input type="text" placeholder="No more than 4.00" id="content"><br>
+            <label>Years Older:</label>
+            <input type="text" id="input"><br>
+            <label>Email:</label>
+            <input type="email" id="input"><br>
+            <label for="state">State:</label>
+            <input type="text" placeholder="Tow characters" pattern="[A-Za-z]{2}" id="input"><br>
+            <label for="zipcode">Zip code:</label>
+            <input type="text" placeholder="Five digits" pattern="\d{5}" id="input"><br>
+            <label>TOEFL/IELTS Score:</label>
+            <input type="text" id="input"><br>
+            <label>&nbsp;&nbsp;listening:</label>
+            <input type="text" id="input"><br>
+            <label>&nbsp;&nbsp;speaking:</label>
+            <input type="text" id="input"><br>
+            <label>&nbsp;&nbsp;reading:</label>
+            <input type="text" id="input"><br>
+            <label>&nbsp;&nbsp;writing:</label>
+            <input type="text" id="input"><br><br><br><br>
+            <h2>Thank you!</h2><br>
+            <input type="button" name="submit" id="submit" value="submit">
+            <input type="reset" name="clear" id="clear" value="clear"> 
+        </form>
+    </main>
+</body>
+<footer>
+    <p>copyright © 2008-2018 School of Computer Science, Auburn University. All Rights Reserved.Editor: Xiangyu Xu.The date:2020.12.01</p>
+</footer>
+</html>
